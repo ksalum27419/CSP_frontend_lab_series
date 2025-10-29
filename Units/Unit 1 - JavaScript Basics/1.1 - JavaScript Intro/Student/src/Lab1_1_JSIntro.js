@@ -25,13 +25,13 @@ const schoolName = "Christopher Columbus"
 
 
 // TODO 5: Create three valid camelCase variables and print them
-let favorite= "pizza"
+let favoriteDinner= "pizza"
 let favoriteHoliday = "christmas"
 let favoriteSchool = "Christopher Columbus"
 
-print(favoriteFood)
-print(favoriteHoliday)
-print(favoriteSchool)
+console.log(favoriteDinner)
+console.log(favoriteHoliday)
+console.log(favoriteSchool)
 
 
 
