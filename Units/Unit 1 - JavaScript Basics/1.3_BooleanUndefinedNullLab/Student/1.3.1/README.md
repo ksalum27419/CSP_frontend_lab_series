@@ -30,7 +30,8 @@
    - Print results of:
      - `true || false`
      - `true && false`
-     - `!true`
+     - `!true` TODO 1: Booleans
+// - Create isStudent = true, hasLicense = false
 2. **Short-circuit Evaluation**
    - Print result of `false && (5 > 2)` and explain why.
    - Print result of `true || (2 > 5)` and explain why.
