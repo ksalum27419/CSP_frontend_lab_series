@@ -116,23 +116,20 @@ switch (stock) {
     break;
 }
 // TODO 5: Do..while loop (1 to 5)
-let i = 1; // starting point
-
+let i = 1;
 do {
-  console.log(i);
-  i++; // increment by 1
+    console.log("VALUE: ", i);
 } while (i <= 5);
 
 // TODO 6: For loop (1 to 20, print "ten" at 10 and "twenty" at 20)
-for (let i = 1; i <= 20; i++) {
-  if (i === 10) {
-    console.log("ten");
-  } else if (i === 20) {
-    console.log("twenty");
-  } else {
-    console.log(i);
-  }
-}
+for (let count = 1; count <= 20; count++) 
+    if(count == 10){
+        console.log("TEN")
+    } else if(count == 20){
+        console.log("TWENTY")
+    } else{
+        console.log("VALUE: ", count);
+    }
 
 // TODO 7: Even/Odd loop (1 to 20)
 for (let i = 1; i <= 20; i++) {
