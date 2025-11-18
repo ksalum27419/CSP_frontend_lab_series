@@ -17,7 +17,14 @@ let n=3; while(n>0){ console.log(n); n--; }
 do { guess = prompt('...'); } while (guess !== 'yes');
 ```
 - **Tips**: Watch for infinite loops (the condition must change). Check off-by-one (`<` vs `<=`).
+let n = 10;
 
+while (n >= 0) {
+  console.log(n);
+  n--; // n-- counts down by 1 each time
+}
+
+console.log("Liftoff!");
 ## 🧩 Try It: Step‑by‑Step Tasks
 
 ### 6) Counting to 10

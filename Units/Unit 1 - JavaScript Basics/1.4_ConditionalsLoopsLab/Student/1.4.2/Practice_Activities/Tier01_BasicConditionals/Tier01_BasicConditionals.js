@@ -40,3 +40,35 @@ if (Number.isNaN(age)) {
 else{
 console.log("Not eligible yet.");
 }
+// 4) Temperature Guide
+let tempF = Number(prompt("Enter the temperature in Fahrenheit:"));
+
+if (Number.isNaN(tempF)) {
+  console.log("Please enter a valid number.");
+} else if (tempF > 90) {
+  console.log("Too hot!");
+} else if (tempF < 60) {
+  console.log("Too cold!");
+} else {
+  console.log("Just right!");
+}
+// 5) Traffic Light (if/else version)
+let color = prompt("Enter the traffic light color (red, yellow, green):");
+
+if (!color) {
+  console.log("Please enter a color.");
+} else {
+  color = color.toLowerCase();
+
+  if (color === "red") {
+    console.log("Stop!");
+  } else if (color === "yellow") {
+    console.log("Slow down!");
+  } else if (color === "green") {
+    console.log("Go!");
+  } else {
+    console.log("Invalid color. Proceed with caution.");
+  }
+}
+//What is one mistake you made today and how did you fix it?
+//ONE MISTAKE I DID WAS FORGETTING TO PUT THE QUOTATATIONS MARKS IN THE CONSOLE.LOG AND HOW I FIXED WAS I PLACE THEM IN TEHRE AFTER I REALIZED IT SAID ERROR IN THE CONSOLES.
