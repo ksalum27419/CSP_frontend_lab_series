@@ -17,19 +17,19 @@ if (Number.isNaN(score)) {
     console.log("97");
 }
 else if(score >=90){
-    console.log("A");
+    alert("A");
 }
 else if(score >=80){
-    console.log('B');
+    alert('B');
 }
 else if (score >=70){
-    console.log('B');
+    alert('B');
 }
 else if (score >=60){
-    console.log('D');
+   alert('D');
 }
  else{
-    console.log('F');
+    alert('F');
  }
 
 let age=Number(prompt(21))
